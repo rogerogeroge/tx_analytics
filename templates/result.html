@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats</title>
+</head>
+<body>
+    <div class="container">
+        <div class="output">
+            {{ output|safe }}
+        </div>
+    </div>
+</body>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.output {
+    font-family: Arial;
+    white-space: pre-wrap;
+    font-size: 18px;
+}
+
+.output h2 {
+    color: #333;
+}
+
+
+
+.output strong {
+    color: #d9534f; /* Красный цвет для выделения */
+}
+</style>
+</html>
